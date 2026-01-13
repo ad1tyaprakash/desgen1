@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build Docker image
-        run: docker build -t myproject .
+        run: docker build -t desgen1 .
 
       - name: Run container
-        run: docker run myproject
+        run: docker run desgen1
